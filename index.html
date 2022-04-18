@@ -9,21 +9,22 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
-    <title>Random Choice Picker</title>
+    <title>Animated Navigation</title>
 </head>
 <body>
     
-    <div class="container">
-        <h3>Enter all of the choiches divided by a comma (' , ')
-        <br> Press enter when you're done</h3>
-        <textarea id="textarea" placeholder="Enter choices here..."></textarea>
-
-        <div id="tags">
-            <!-- <span class="tag">Choice 1</span>
-            <span class="tag highlight">Choice 1</span>
-            <span class="tag">Choice 1</span> -->
-        </div>
-    </div>
+    <nav class="active" id="nav">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Works</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+        <button class="icon" id="toggle">
+            <div class="line line 1"></div>
+            <div class="line line 2"></div>
+        </button>
+    </nav>
 
     <!-- Ion icons -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
